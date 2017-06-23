@@ -1,0 +1,200 @@
+
+/* body */
+
+body {
+	height: 100%;
+	background: -webkit-linear-gradient(#66CDAA, #BC8F8F);
+	background: -moz-linear-gradient(#E9967A, #8FBC8F);
+	font-family: Helvetica, sans-serif;
+}
+
+
+/* navigation styles */
+
+nav {
+	font-size: 24px;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+	padding: 50px;
+
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	text-decoration-color: grey;
+	cursor: pointer;
+	color: grey;
+}
+
+.container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.header {
+	width: 100%;
+	margin: 0 auto;
+	background: -webkit-linear-gradient(#20B2AA, #20B2AA);
+	background: -moz-linear-gradient(#D8BFD8, #D8BFD8);
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.one-third {
+	width: 35%;
+	background-color: grey;
+	margin: 10px 0;
+	margin-bottom: 20px;
+	float:left;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+
+.one-third2 {
+	width: 60%;
+	background-color: transparent;
+	margin: 5px 0;
+	margin-bottom: 20px;
+	float:right;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+}
+
+h1,p {
+	color: white;
+	text-align: -moz-left;
+	text-align: -webkit-center;
+	padding: 5px;
+	font-family: Helvetica, sans-serif;
+}
+
+h2 {
+	color: white;
+	text-align: -moz-left;
+	text-align: -webkit-center;
+	padding: 5px 10px;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.text {
+	color: white;
+	text-align: -moz-left;
+	text-align: -webkit-center;
+	padding: 5px 10px;
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.contact {
+	width: 100%;
+	text-align: -moz-left;
+	text-align: -webkit-center;
+	background: -webkit-linear-gradient(#20B2AA, #B0C4DE);
+	background: -moz-linear-gradient(#D8BFD8, #7B68EE);
+	display: block;
+	margin-top: 550px;
+}
+
+.contacthead {
+	font-family: Helvetica, sans-serif;
+	color: white;
+	font-size: 24px;
+	text-align: -moz-left;
+	text-align: -webkit-center;
+	padding: 20px;
+}
+
+.contacttext {
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-size: 21px;
+	text-align: -moz-left;
+	text-align: -webkit-center;
+	padding-bottom: 20px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/* footer */
+
+.form {
+	width: 60%;
+	background-color: grey;
+	margin: 0 auto;
+	color: white;
+	border-style: solid;
+	border-width: 5px;
+	border-color: pink;
+
+}
+
+form {
+	text-align: center;
+}
+
+input {
+	width: 30%;
+	height: 30px;
+	font-family: Helvetica, sans-serif;
+	margin: 10px;
+	padding: 10px;
+
+}
+
+.subscribe {
+	text-align: -moz-left;
+	text-align: -webkit-center;
+	padding: 20px;
+	font-size: 24px;
+}
+
+button {
+	padding: 20px;
+	height: 70px;
+	margin: 10px;
+	text-align: -moz-left;
+	text-align: -webkit-center;
+	font-size: 18px;
+	font-family: Helvetica, sans-serif;
+	margin-bottom: 20px;
+
+}
+
+button:hover {
+	background-color: grey;
+	color: white;
+}
+
+.copy {
+	color: white;
+	margin: 0 auto;
+	text-align: -moz-left;
+	text-align: -webkit-center;
+	width: 100%;
+}
